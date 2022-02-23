@@ -3,7 +3,8 @@ class CustomFooter extends HTMLElements{
         this.innerHTML = 
         `
         <footer>
-        
+        <div class="container">
+        </div>
         </footer>
         `
     }
