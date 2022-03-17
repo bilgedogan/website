@@ -1,56 +1,105 @@
 <!DOCTYPE html>
 <html lang="tr-TR">
-    <head>
-        <title>hackyiyenhackyer</title>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS, JavaScript, AlpineJS, Bootstrap">
-        <meta name="description" content="Personal Website">
-        <meta name="author" content="Nadide Bilge Doğan">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--<meta http-equiv="refresh" content="60">-->
 
-        <!-- Style -->
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+<head>
+    <title>hackyiyenhackyer</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript, AlpineJS, Bootstrap">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Nadide Bilge Doğan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="60">-->
 
-        <!-- JS -->
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+
+    <!-- JS 
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v3.9.0/dist/alpine.min.js" defer></script>
-
-        <!--Templates-->
-        <script type="module" src="js/header.js"></script>
-        <script type="module" src="js/footer.js"></script>
-
-    </head>
-    <body>
-        <!--
-        <nbd-header>
-        </nbd-header>
-        <nbd-footer>
-        </nbd-footer>
         -->
-        <footer class="footer">
+    <!--Templates-->
+    <script type="module" src="js/header.js"></script>
+    <script type="module" src="js/footer.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark prime-color py-0">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col align-middle">
-                        <p class="text-center fw-bold">
-                            Nadide Bilge Doğan
-                        </p>
-                    
-                        <p class="text-center">
-                            Computer Engineering Student at Istanbul Technical University
-                        </p>
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <!--Social Media-->
-                    <section>
-                        <a href="https://github.com/bilgedogan" target="_blank" class="btn"><i class="fa fa-github"></i></a>
-                    </section>
+                <a class="navbar-brand fs-24 mx-lg-5" href="#">Personal Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item py-2 px-3">
+                            <a class="nav-link active" aria-current="page" href="#aboutme">About Me</a>
+                        </li>
+                        <li class="nav-item py-2 px-3">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item py-2 px-3">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-    </body>
+        </nav>
+    </header>
+    <main role="main" class="m-body-md m-body-sm my-4">
+        <section id="aboutme">
+            <div class="row align-items-center">
+                <div class="col-sm-4 col-xs-12">
+                    <img src="img/me.jpeg" alt="That's me!" class="responsive-img">
+                </div>
+                <div class="col-sm-8 col-xs-12">
+                    <p> I am hard-working, eager to learn and conscious about responsibilities.
+                        With the help of strong communication skills, I think that I am suitable
+                        for team work. I am 3rd grade student with 3.75 average and have done
+                        various projects related to web development. I am seeking for an
+                        internship where I can gain new experiences.</p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="education">
+            <!--
+            <p>Istanbul Technical University, Undergraduate</p>
+            <p>Computer Engineering | Sept 2019 - June 2024</p>
+            -->
+        </section>
+        <section id="projects"></section>
+    </main>
+    <footer class="footer prime-color py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col align-middle">
+                    <p class="text-center fw-bold">
+                        Nadide Bilge Doğan
+                    </p>
+                    <p class="text-center">
+                        Computer Engineering Student at Istanbul Technical University
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <!--Social Media-->
+                <section class="text-center align-middle">
+                    <a href="https://github.com/bilgedogan" target="_blank" class="btn fa-lg"><i
+                            class="fa fa-github icon-color"></i></a>
+                    <a href="https://www.linkedin.com/in/nadide-bilge-doğan-479713198" target="_blank"
+                        class="btn fa-lg"><i class="fa fa-linkedin icon-color"></i></a>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>

@@ -1,5 +1,40 @@
 .footer {
-    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
-    font-size: 0.8em;
-    color: #11437b;
+    font-family: "Poppins",monospace;
+    font-size: 1em;
+    color:#ffffff;
 }
+.prime-color{
+    background-color: #09068E;
+}
+.icon-color{
+    color:#ffffff
+}
+.fs-24{
+    font-size: 1.5em;
+}
+.fs-18{
+    font-size: 1.125em;
+}
+nav li:hover{
+    background-color: #060462
+    ;
+}
+@media screen and (min-width: 992px) {
+    .m-body-md{
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+}
+@media screen and (max-width: 992px) {
+    .m-body-sm{
+        margin-left: 2.3em;
+        margin-right: 2ç.3em;
+    }
+}
+.responsive-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+  }

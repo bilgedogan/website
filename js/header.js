@@ -1,7 +1,6 @@
 class CustomHeader extends HTMLElement{
     connectedCallBack(){
-        this.innerHTML =
-        `
+        this.innerHTML = `
         <header>
 
         </header>
